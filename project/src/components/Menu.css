@@ -1,0 +1,30 @@
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+form button {
+  font-size: 14px;
+  width: 200px;
+  margin: 0 auto;
+  background-color: #f9f9f9;
+  margin-bottom: 20px;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  text-align: left;
+}
+
+form button:hover {
+  color: #00bfe3;
+}
+
+form button:focus {
+  border: none;
+  outline: none;
+}
+
+form button:active {
+  border: none;
+  outline: none;
+}
